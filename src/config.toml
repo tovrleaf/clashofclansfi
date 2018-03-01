@@ -1,4 +1,19 @@
 title = "FINLANDIA - suomalainen peliyhteisö"
+baseURL = "http://clashofclans.fi/"
+languageCode = "fi-FI"
+theme = "osprey"
+config = "config.toml"
+canonifyURLS = true
+googleAnalytics = "UA-68761504-1"
 contentDir = "/content"
 destination = "/public"
-theme = "osprey"
+
+[Params]
+  logoBig = "/images/finlandia-logo.jpg"
+  logoSmall = "/images/finlandia-logo.jpg"
+  openGraphImage = "/images/finlandia-logo.jpg"
+
+[[menu.main]]
+  name = "Info"
+  url = "/info"
+  weight = 1
