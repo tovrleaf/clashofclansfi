@@ -13,6 +13,6 @@ destination = "/public"
   logoSmall = "/images/finlandia-logo.jpg"
 
 [[menu.main]]
-  name = "Info"
-  url = "/info"
+  name = "About"
+  url = "/about"
   weight = 1
